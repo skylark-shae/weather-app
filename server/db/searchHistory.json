@@ -2,5 +2,9 @@
 	{
 		"city_name": "Denver",
 		"city_id": "2e3eccfe-5f59-4e23-a2ec-c3f09756cf78"
+	},
+	{
+		"name": "San Diego",
+		"id": "4f33f1ec-b1c6-48a1-947e-f3d3d2c5482a"
 	}
 ]
