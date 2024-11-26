@@ -12,9 +12,7 @@ A simple weather search application that allows users to search for weather info
 - [License](#license)
 
 ## Installation
-There is no set up needed, just visit the deployment site at:
-
-[Link](link)
+There is no set up needed, just visit the deployment site at [Render Link](https://weather-app-32yy.onrender.com).
 
 ## Usage
 Just enter the city name you are searching for and press the "Search" button.

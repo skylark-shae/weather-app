@@ -42,7 +42,7 @@ class WeatherService {
 
   constructor() {
     this.baseURL = process.env.API_BASE_URL || "https://api.openweathermap.org";
-    this.APIKey = process.env.API_KEY || "";
+    this.APIKey = process.env.API_KEY || "4a197567491d61f48d2d8aaec1c2818b";
   }
   // TODO: Create fetchLocationData method
   private async fetchLocationData(city: string) {
