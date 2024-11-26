@@ -53,3 +53,12 @@ If you have any questions, please reach out to me at:
 
 ## License
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+
+This project is licensed under the MIT license.
+
+The MIT License is a permissive software license originating at the Massachusetts Institute of Technology (MIT)[6] in the late 1980s.[7] As a permissive license, it puts very few restrictions on reuse and therefore has high license compatibility.
+
+For more information visit [MIT Licensing](https://choosealicense.com/licenses/mit/).
+
+- - -
+© 2024 Sky-Shae Design. All Rights Reserved.
