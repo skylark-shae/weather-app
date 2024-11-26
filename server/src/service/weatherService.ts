@@ -132,34 +132,8 @@ class WeatherService {
     );
   }
   // TODO: Complete buildForecastArray method
-  // private buildForecastArray(currentWeather: Weather, weatherData: any[]) {
-  //   const forecastArray: Weather[] = [];
 
-  //   for (const day of weatherData) {
-  //     if (day.dt !== currentWeather.date) {
-  //       const cityName = currentWeather.cityName;
-  //       const date = day.dt;
-  //       const icon = day.weather[0].icon;
-  //       const description = day.weather[0].description;
-  //       const temp = day.main.temp;
-  //       const windSpeed = day.wind.speed;
-  //       const humidity = day.main.humidity;
-
-  //       const forecastWeather = new Weather(
-  //         cityName,
-  //         date,
-  //         icon,
-  //         description,
-  //         temp,
-  //         windSpeed,
-  //         humidity
-  //       );
-
-  //       forecastArray.push(forecastWeather);
-  //     }
-  //   }
-  //   return forecastArray;
-  // }
+  
   private buildForecastArray(currentWeather: Weather, weatherData: any[]) {
     const forecastArray: Weather[] = [];
     const uniqueDays: Set<string> = new Set();

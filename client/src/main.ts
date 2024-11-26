@@ -28,7 +28,11 @@ const humidityEl: HTMLParagraphElement = document.getElementById(
   "humidity"
 ) as HTMLParagraphElement;
 
-/* API Calls */
+/*
+
+API Calls
+
+*/
 
 const fetchWeather = async (cityName: string) => {
   const response = await fetch("/api/weather/", {
@@ -66,7 +70,11 @@ const deleteCityFromHistory = async (id: string) => {
   });
 };
 
-/* Render Functions */
+/*
+
+Render Functions
+
+*/
 //converting the unix time into date
 function convertUnixToDate(unixTime: number): string {
   const date = new Date(unixTime * 1000);
@@ -170,7 +178,11 @@ const renderSearchHistory = async (searchHistory: any) => {
   }
 };
 
-/* Helper Functions */
+/*
+
+Helper Functions
+
+*/
 
 const createForecastCard = () => {
   const col = document.createElement("div");
@@ -251,7 +263,11 @@ const buildHistoryListItem = (city: any) => {
   return historyDiv;
 };
 
-/* Event Handlers */
+/*
+
+Event Handlers
+
+*/
 
 const handleSearchFormSubmit = (event: any): void => {
   event.preventDefault();
@@ -280,7 +296,11 @@ const handleDeleteHistoryClick = (event: any) => {
   deleteCityFromHistory(cityID).then(getAndRenderHistory);
 };
 
-/* Initial Render */
+/*
+
+Initial Render
+
+*/
 
 const getAndRenderHistory = () =>
   fetchSearchHistory().then(renderSearchHistory);
