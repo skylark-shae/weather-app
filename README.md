@@ -44,7 +44,11 @@ If you have any questions, please reach out to me at:
 - GitHub: [skylark-shae](https://github.com/skylark-shae)
 
 ## Demonstration
-- N/A, currently not working
+<div style="margin-left: 40px;">
+  Demonstration of the application's mobile interface:<br/>
+  <img src="./assets/README-Desktop.gif.gif" alt="Mobile demonstration video" width="775"/>
+</div>
+<br/>
 
 
 ## License
